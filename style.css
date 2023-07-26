@@ -207,32 +207,20 @@
     cursor: pointer;
 }
 
-.sessao-3 img{
-    width: 200%;
-}
-
 /* ----------FIM------------ */
+
 
 /* ----------Quarta Sessão------------ */
 
 .sessao-4 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .sessao-4-pt1 {
     display: flex;
-    flex-direction: row;
-    padding: 10% 15%;
-}
-
-.big-cabeca{
-    max-width: 50%;
-}
-
-.sessao-4-texto {
-    padding-left: 10%;
+    align-items: center;
+    padding: 7% 10%;
 }
 
 .sessao-4-texto h2{
@@ -243,13 +231,19 @@
     line-height: 5vw;
 }
 
+.big-cabeca {
+    width: auto;
+    height: 120vh;
+    padding-right: 25%;
+}
+
 .sessao-4-texto p{
     font-style: normal;
     font-weight: 400;
     font-size: 1.15em;
     line-height: 2.222vw;
     color: #0B4141;
-    margin: 3vw 0 3vw 0;
+    padding: 8% 0;
 }
 
 .sessao-4-texto button{
@@ -263,19 +257,23 @@
     color: #0B4141;
 }
 
-.sessao-4-texto img{
-    margin-right: 0.7vw;
-    width: 1.111vw;
+.mouse-bt{
+    margin-right: 0.8vw;
 }
+/* parte 2 sa sessão 4 */
 
 .sessao-4-pt2 {
     display: flex;
-    flex-direction: row;
-    padding: 0 14% 5% 14%;
+    padding: 0 12% 5% 12%;
+}
+
+.big-cabeca2 {
+    height: auto;
+    width: 170vw;
 }
 
 .sessao-4-texto2 {
-    margin-right: 12%;
+    padding-right: 15%;
 }
 
 .sessao-4-texto2 h2{
@@ -292,7 +290,7 @@
     font-size: 1.15em;
     line-height: 2.222vw;
     color: #0B4141;
-    margin: 3vw 0 3vw 0;
+    margin: 3vw 6vw 3vw 0;
 }
 
 /* ----------FIM------------ */
@@ -315,8 +313,8 @@
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.0em;
-    line-height: 2.5vw;
+    font-size: 1.1em;
+    line-height: 1.8vw;
     color: #0B4141;
     margin: 2% 23%;
 }
@@ -327,7 +325,7 @@
 
 .sessao-5-img {
     width: 100%;
-    margin-top: 2%;
+    margin-top: 4%;
     display: flex;
 }
 
@@ -346,6 +344,7 @@
 
 .sessao-6-cont {
     position: absolute;
+    margin-top: -8%;
 }
 
 .sessao-6-cont h2{
@@ -355,16 +354,51 @@
     font-size: 4.722vw;
     color: #FFF;
     line-height: 5vw;
-    margin-top: 5%;
+    margin: 0 0 4% 0;
 }
 
 .comentarios {
     display: flex;
+    align-items: flex-start;
+    padding: 0 15%;
 }
 
+.comentarios-caixa {
+    padding: 2%;
+    margin: 1vw 0.5vw;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.comentarios-caixa p {
+    margin: 2%;
+    font-size: 0.8em;
+}
+
+.desc-coment{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.desc-coment img{
+    margin-right: 4%;
+    height: auto;
+    width: 15%;
+}
+
+.desc {
+    margin-top: 5%;
+    font-size: 0.8em;
+}
 
 /* ----------FIM------------ */
 
-/* ----------Segunda Sessão------------ */
+/* ----------Sétima Sessão------------ */
+
+.sessao-7 {
+    margin-top: 5%;
+}
+
 
 /* ----------FIM------------ */
