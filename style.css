@@ -40,10 +40,12 @@
     display: flex;
     background-color: #fff;
     align-items: center;
-    margin-left: 4%;
-    margin-top: 1.3%;
-    margin: 1.3% 4% 1.3% 4%;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 0.3% 2%;
 }
 
 .logo a{
@@ -80,7 +82,8 @@
     font-weight: 800px;
     font-size: 120%;
     margin-left: 50%;
-    cursor: pointer;  
+    cursor: pointer;
+    border: none; 
 }
 
 .sessao-1 {
@@ -174,11 +177,15 @@
 .sessao-3 {
     background: #0B4141;
     display: flex;
-    padding: 3% 0 0 0;
+    padding: 8% 0;
 }
 
 .sessao-3-pt1 {
     margin: auto 0 auto 15%;
+}
+
+.big-shadow {
+    max-height: 70vw;
 }
 
 .sessao-3-pt1 h2{
